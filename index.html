@@ -1,0 +1,77 @@
+<!-- by Ayman Taha
+    1/28/2023 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=".............">
+    <meta name="keywords" content="..........">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <!-- main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bookmarker</title>
+</head>
+<body class="v-100">
+    <header>
+        <div class="container mb-2">
+            <h1>Bookmarker</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="main-content d-flex flex-column text-center">
+                    <h2 class="mb-3">Bookmark your favorite sites</h2>
+
+                    <label class="mb-2 fw-bold" for="site-name">Site Name</label>
+                    <input  class="mb-4" type="text" id="site-name" placeholder="Bookmark Name">
+                    <p id ='name-vaild' class="alert alert-danger fw-bold d-none py-1 border-2 border-danger">Name is required</p>
+
+                    <label class="mb-2v fw-bold" for="web-site-URL">website URL</label>
+                    <input class="mb-4" type="text" id="web-site-URL" placeholder="Bookmark Name">
+                    <p id ='url-vaild' class="alert alert-danger fw-bold d-none py-1 border-2 border-danger">Url Field is required</p>
+                    <boutton id="btn-submit" class="btn-site btn btn-primary">Submit</boutton>
+                </div>
+            </div>
+        </section>
+        <section id="result">
+            <div class="container ">
+                <!-- <div class=" result-text  d-flex justify-content-between">
+                    <p id="web-text-name " class="fw-bold ">google</p>
+                    <div>
+                        <button class="btn-site btn btn-primary" ><a id="addressURL" class="text-decoration-none text-white" href="#" target="_blank">Visit</a></button>
+                        <button class="btn-site btn btn-danger">Delete</button>
+                    </div>
+                </div> -->
+            </div>       
+        </section>
+    </main>
+    <footer class=" mt-4">
+        <div class="container">
+            <p>© 2019 Bookmarker Inc.</p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

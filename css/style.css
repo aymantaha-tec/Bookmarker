@@ -1,0 +1,35 @@
+.main-content {
+    background-color: rgb(238, 238, 238);
+    padding: 50px 100px;
+}
+#btn-submit {
+    width: fit-content;
+    margin: auto;
+    padding: 10px 20px;
+}
+header .container {
+    border-bottom: 2px solid rgb(170, 170, 170);
+    color:rgb(170, 170, 170);
+    padding:50px 10px;
+    font-weight: 600;
+}
+
+
+footer .container {
+    color:rgb(170, 170, 170);
+    border-top: 2px solid rgb(170, 170, 170);
+    padding:50px 10px;
+    font-weight: 600;
+}
+.btn-site:hover {
+    box-shadow: rgb(136, 136, 136) 2px 5px 3px 0px;
+}
+#result .result-text {
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 10px 0;
+    padding: 20px;
+}
+#result  .result-btntext {
+
+    width: 70%;
+}
